@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtTitleGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_14sdp"
+        style="@style/TextStyleBold"
+        android:textSize="@dimen/_15ssp"
+        android:text="@string/title_layout_linear"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <androidx.constraintlayout.widget.Group
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:constraint_referenced_ids="txtMore,imvMore"
+        app:layout_constraintStart_toStartOf="@+id/txtMore"
+        app:layout_constraintTop_toTopOf="@+id/imvMore"
+        app:layout_constraintBottom_toBottomOf="@+id/imvMore"
+        app:layout_constraintEnd_toEndOf="@+id/imvMore"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_more_home_activity"
+        style="@style/TextStyleMedium"
+        android:textSize="@dimen/_13sdp"
+        app:layout_constraintEnd_toStartOf="@+id/imvMore"
+        app:layout_constraintBottom_toBottomOf="@+id/txtTitleGrid"
+        app:layout_constraintTop_toTopOf="@+id/txtTitleGrid"
+        />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imvMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_right"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/txtTitleGrid"
+        app:layout_constraintTop_toTopOf="@+id/txtTitleGrid"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvType"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitleGrid"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@+id/rcvType"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

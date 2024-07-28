@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <View
+        android:id="@+id/imvStory"
+        android:background="@drawable/bg_grid"
+        android:backgroundTint="@color/color_hint"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_140sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtTitleStory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        tools:text="Cổ chân nhân"
+        style="@style/TextStyleSemibold"
+        android:maxLines="2"
+        android:ellipsize="end"
+        app:layout_constraintTop_toBottomOf="@+id/imvStory"
+        app:layout_constraintStart_toStartOf="@+id/imvStory"
+        app:layout_constraintEnd_toEndOf="@+id/imvStory"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        tools:text="Tiên hiệp"
+        style="@style/TextStyleMedium"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/color_hint"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitleStory"
+        app:layout_constraintStart_toStartOf="@+id/txtTitleStory"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

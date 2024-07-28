@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">common</string>
+    <string name="bottom_nav_home">Home</string>
+    <string name="bottom_nav_type">Type</string>
+    <string name="bottom_nav_storage">Storage</string>
+    <string name="bottom_nav_setting">Setting</string>
+    <string name="title_home_fragment">Đề suất</string>
+    <string name="search_home_fragment">Tìm tiêu đề hoặc tác giả</string>
+    <string name="title_layout_grid">Truyện không thể bỏ lỡ</string>
+    <string name="button_more_home_activity">Thêm</string>
+    <string name="title_layout_linear">Danh sách truyện</string>
+    <string name="text_tien_hiep_item_type">Tiên hiệp</string>
+    <string name="text_ngon_tinh_item_type">Ngôn tình</string>
+    <string name="text_kiem_hiep_item_type">Kiếm hiệp</string>
+    <string name="text_huyen_huyen_item_type">Huyền huyễn</string>
+    <string name="text_xuyen_khong_item_type">xuyên không</string>
+    <string name="text_dong_nhan_item_type">Đồng nhân</string>
+    <string name="text_quan_truong_item_type">Quan trường</string>
+    <string name="text_bach_hop_item_type">Bách hợp</string>
+    <string name="text_dam_my_item_type">Đam mỹ</string>
+    <string name="text_co_trang_item_type">Cổ trang</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

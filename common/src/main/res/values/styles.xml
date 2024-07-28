@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextStyleMedium">
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:fontFamily">@font/urbanist_medium</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="TextStyleBold">
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:fontFamily">@font/urbanist_bold</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="TextStyleLight">
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:fontFamily">@font/urbanist_light</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+    <style name="TextStyleReguler">
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:fontFamily">@font/urbanist_regular</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+    <style name="TextStyleSemibold">
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:fontFamily">@font/urbanist_semibold</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+</resources>
