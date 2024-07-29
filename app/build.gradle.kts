@@ -7,6 +7,7 @@ android {
     namespace = "com.example.cbook"
     compileSdk = 34
 
+
     defaultConfig {
         applicationId = "com.example.cbook"
         minSdk = 24
